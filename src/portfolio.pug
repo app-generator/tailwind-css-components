@@ -1,0 +1,64 @@
+doctype html
+html(lang="en")
+    head
+        title Tailwind CSS - Portfolio Components | AppSeed
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/tailwind/tailwind-theme.css")
+        link(rel="icon" href="favicon.ico")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicon.png")
+        script(src="js/main.js")
+    body.bg-body.text-body.font-body
+        .container.mx-auto.px-4
+
+            section(class="py-12 px-4 text-center")
+                div(class="w-full max-w-2xl mx-auto")
+                    h1(class="text-5xl leading-tight font-heading" ) 
+                        a(href="https://tailwindcss.com/" ) Tailwind CSS
+
+                    h3(class="mt-6 mb-8 text-gray-500 leading-relaxed" ) Portfolio Components - 
+                        a(href="https://github.com/app-generator/tailwind-css-components") Source Code
+
+            hr 
+
+            section(class="py-12 px-4 text-center")
+                h2(class="text-4xl mb-8 font-heading" ) Portfolio
+
+                div(class="max-w-2xl mx-auto")
+                    img(src="placeholders/pictures/office.jpg" alt="" class="rounded shadow-md" )
+
+                    div(class="text-center mt-8 mb-6")
+                        button(class="inline-flex items-center justify-center h-3 w-3 mr-2 bg-gray-800 rounded-full")
+                        button(class="inline-flex items-center justify-center h-3 w-3 mr-2 bg-gray-600 rounded-full")
+                        button(class="inline-flex items-center justify-center h-3 w-3 mr-2 bg-gray-600 rounded-full")
+
+                    div
+                        h3(class="text-2xl mb-4 font-heading" ) Client: Realweb
+                        p(class="text-gray-500 leading-relaxed" ) Great offer, competitive prices, professional service. That’s how I’d remember the Dunder Mifflin. Although I had to switch paper provider, sometimes I really miss Dunder family. I also got gift basket from the team!
+
+            hr 
+
+            section(class="py-12 px-4")
+                div(class="flex flex-wrap -mx-4")
+                    div(class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0")
+                        div(class="flex flex-col h-full p-8 bg-gray-200 rounded")
+                            h2(class="text-3xl font-heading" ) Dunder Friends, a.k.a Companies Who Work With Us
+                            p(class="max-w-sm mt-auto mb-8 text-gray-500 leading-relaxed" ) We don’t believe in paperless future - so do our Customers.
+                            a(href="#" class="text-right text-blue-700 hover:underline" ) View all Dunder Mifflin customers
+
+                    div(class="lg:w-1/2 px-4") 
+                        div(class="flex flex-wrap -m-2") 
+                            div(class="w-1/2 p-2")
+                                img(src="placeholders/pictures/office.jpg" alt="" class="rounded shadow-md" )
+                            div(class="w-1/2 p-2")
+                                img(src="placeholders/pictures/work.jpg" alt="" class="rounded shadow-md" )
+                            div(class="w-1/2 p-2")
+                                img(src="placeholders/pictures/work.jpg" alt="" class="rounded shadow-md" )
+                            div(class="w-1/2 p-2")
+                                img(src="placeholders/pictures/office.jpg" alt="" class="rounded shadow-md" )
+
+            hr
+
+            include components/footer.pug

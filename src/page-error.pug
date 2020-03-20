@@ -1,0 +1,53 @@
+doctype html
+html(lang="en")
+    head
+        title Tailwind CSS - Page Error | AppSeed
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/tailwind/tailwind-theme.css")
+        link(rel="icon" href="favicon.ico")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicon.png")
+        script(src="js/main.js")
+    body.bg-body.text-body.font-body
+        .container.mx-auto.px-4
+
+            section(class="py-12 px-4 text-center")
+                div(class="w-full max-w-2xl mx-auto")
+                    h1(class="text-5xl leading-tight font-heading" ) 
+                        a(href="https://tailwindcss.com/" ) Tailwind CSS
+
+                    h3(class="mt-6 mb-8 text-gray-500 leading-relaxed" ) Page Error - 
+                        a(href="https://github.com/app-generator/tailwind-css-components") Source Code
+
+            hr 
+
+            section(class="py-8 px-4 text-center")
+                div(class="max-w-auto md:max-w-lg mx-auto")
+                    img(src="placeholders/pictures/error.svg" alt="" class="mb-8" )
+                    h2(class="text-5xl mb-2 font-heading" ) Page not found
+                    p(class="mb-6 text-gray-500" ) Dunder Mifflin is the place where all the paper enthusiastic met one day and started selling supplies with true love.
+
+                    div
+                        a(href="#" class="px-4 text-blue-700 hover:underline" ) Link1
+                        a(href="#" class="px-4 text-blue-700 hover:underline" ) Link1
+                        a(href="#" class="px-4 text-blue-700 hover:underline" ) Link1
+                        a(href="#" class="px-4 text-blue-700 hover:underline" ) Link1
+
+            hr 
+
+            section(class="py-8 px-4 text-center")
+                h2(class="text-5xl font-heading" ) Error 404
+                p(class="text-gray-500" ) Page not found
+                img(src="placeholders/pictures/error.svg" alt="" class="max-w-auto md:max-w-sm my-12 mx-auto" ) 
+
+                div
+                    a(href="#" class="px-4 text-blue-700 hover:underline" ) Link1
+                    a(href="#" class="px-4 text-blue-700 hover:underline" ) Link1
+                    a(href="#" class="px-4 text-blue-700 hover:underline" ) Link1
+                    a(href="#" class="px-4 text-blue-700 hover:underline" ) Link1
+
+            hr
+
+            include components/footer.pug

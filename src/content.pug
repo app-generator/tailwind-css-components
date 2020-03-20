@@ -1,0 +1,42 @@
+doctype html
+html(lang="en")
+    head
+        title Tailwind CSS - Content Components | AppSeed
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/tailwind/tailwind-theme.css")
+        link(rel="icon" href="favicon.ico")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicon.png")
+        script(src="js/main.js")
+    body.bg-body.text-body.font-body
+        .container.mx-auto.px-4
+
+            section(class="py-12 px-4 text-center")
+                div(class="w-full max-w-2xl mx-auto")
+                    h1(class="text-5xl leading-tight font-heading" ) 
+                        a(href="https://tailwindcss.com/" ) Tailwind CSS
+
+                    h3(class="mt-6 mb-8 text-gray-500 leading-relaxed" ) Content Components - 
+                        a(href="https://github.com/app-generator/tailwind-css-components") Source Code
+
+            hr 
+
+            section(class="py-8 px-4")
+                div(class="max-w-3xl mx-auto")
+                    h2(class="text-3xl" ) Dunder Mifflin is the way to provide your company an extraordinary paper, sold by extraordinary people.
+
+            hr 
+
+            section(class="py-8 px-4")
+                div(class="flex flex-wrap -mx-2")
+                    div(class="lg:w-2/5 px-2 lg:pr-16 mb-6 lg:mb-0")
+                        h2(class="text-3xl" ) The real business is done on paper
+                    
+                    div(class="lg:w-3/5 px-2")
+                        p Dunder Mifflin is the way to provide your company an extraordinary paper, sold by extraordinary people. Professional, dedicated, local. Dunder Mifflin is on its best patch to change the way you think about paper. That’s us - people who sell sell limitless paper in the paperless world.
+
+            hr
+
+            include components/footer.pug                        

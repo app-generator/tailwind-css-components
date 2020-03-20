@@ -1,0 +1,56 @@
+doctype html
+html(lang="en")
+    head
+        title Tailwind CSS - Pagination Components | AppSeed
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/tailwind/tailwind-theme.css")
+        link(rel="icon" href="favicon.ico")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicon.png")
+        script(src="js/main.js")
+    body.bg-body.text-body.font-body
+        .container.mx-auto.px-4
+
+            section(class="py-12 px-4 text-center")
+                div(class="w-full max-w-2xl mx-auto")
+                    h1(class="text-5xl leading-tight font-heading" ) 
+                        a(href="https://tailwindcss.com/" ) Tailwind CSS
+
+                    h3(class="mt-6 mb-8 text-gray-500 leading-relaxed" ) Pagination Components - 
+                        a(href="https://github.com/app-generator/tailwind-css-components") Source Code
+
+            hr 
+
+            div(class="flex p-4")
+                ul(class="flex mx-auto md:mx-0 list-reset border border-grey-light rounded")
+                    li
+                        a(class="block px-3 py-2 text-blue-700 hover:text-white hover:bg-indigo-500 border-r border-grey-light" href="#" ) Previous
+                    li
+                        a(class="block px-3 py-2 text-blue-700 hover:text-white hover:bg-indigo-500 border-r border-grey-light" href="#") 1
+                    li
+                        a(class="block px-3 py-2 text-blue-700 hover:text-white hover:bg-indigo-500 border-r border-grey-light" href="#") 2
+                    li
+                        a(class="block px-3 py-2 text-blue-700 hover:text-white hover:bg-indigo-500 border-r border-grey-light" href="#") 3
+                    li
+                        a(class="block px-3 py-2 text-blue-700 hover:text-white hover:bg-indigo-500" href="#" ) Next
+
+            hr 
+
+            div(class="flex p-4")
+                ul(class="flex mx-auto list-reset border border-grey-light rounded")
+                    li
+                        a(class="block px-3 py-2 text-blue-700 hover:text-white hover:bg-indigo-500 border-r border-grey-light" href="#" ) Previous
+                    li
+                        a(class="block px-3 py-2 text-blue-700 hover:text-white hover:bg-indigo-500 border-r border-grey-light" href="#") 1
+                    li
+                        a(class="block px-3 py-2 text-blue-700 hover:text-white hover:bg-indigo-500 border-r border-grey-light" href="#") 2
+                    li
+                        a(class="block px-3 py-2 text-blue-700 hover:text-white hover:bg-indigo-500 border-r border-grey-light" href="#") 3
+                    li
+                        a(class="block px-3 py-2 text-blue-700 hover:text-white hover:bg-indigo-500" href="#" ) Next
+
+            hr
+
+            include components/footer.pug

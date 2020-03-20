@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+    head
+        title Tailwind CSS - Cookies Components | AppSeed
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/tailwind/tailwind-theme.css")
+        link(rel="icon" href="favicon.ico")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicon.png")
+        script(src="js/main.js")
+    body.bg-body.text-body.font-body
+        .container.mx-auto.px-4
+
+            section(class="py-12 px-4 text-center")
+                div(class="w-full max-w-2xl mx-auto")
+                    h1(class="text-5xl leading-tight font-heading" ) 
+                        a(href="https://tailwindcss.com/" ) Tailwind CSS
+
+                    h3(class="mt-6 mb-8 text-gray-500 leading-relaxed" ) Cookies Components - 
+                        a(href="https://github.com/app-generator/tailwind-css-components") Source Code
+
+            hr 
+
+            div(class="absolute bottom-0 left-0 p-4 bg-white border-t")
+                h2(class="text-3xl mb-2 font-heading" ) Cookie Policy
+                p(class="mb-4 text-gray-500 leading-relaxed" ) We use cookies to personalise content, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners. If you want to change your cookie setting, please see the ‘how to reject cookies' section of our #[a(href="#" class="text-blue-700 hover:underline") Cookie Policy]. Otherwise, if you agree to our use of cookies, please continue to use our website.
+                a(href="#" class="inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" ) I accept cookies
+
+            hr
+
+            include components/footer.pug
+

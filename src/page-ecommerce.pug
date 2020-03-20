@@ -1,0 +1,96 @@
+doctype html
+html(lang="en")
+    head
+        title Tailwind CSS - Ecommerce Page | AppSeed
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/tailwind/tailwind-theme.css")
+        link(rel="icon" href="favicon.ico")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicon.png")
+        script(src="js/main.js")
+    body.bg-body.text-body.font-body
+        .container.mx-auto.px-4
+
+            section(class="py-12 px-4 text-center")
+                div(class="w-full max-w-2xl mx-auto")
+                    h1(class="text-5xl leading-tight font-heading" ) 
+                        a(href="https://tailwindcss.com/" ) Tailwind CSS
+
+                    h3(class="mt-6 mb-8 text-gray-500 leading-relaxed" ) Ecommerce Page - 
+                        a(href="https://github.com/app-generator/tailwind-css-components") Source Code
+
+            hr 
+
+            section(class="py-12 px-4")
+                div(class="flex flex-wrap -mx-4")
+                    div(class="lg:w-1/2 px-4 mb-4 lg:mb-0")
+                        img(src="placeholders/pictures/paper.jpg" alt="" class="rounded shadow-md" )
+                    
+                    div(class="lg:w-1/2 px-4")
+                        h2(class="text-4xl mb-4 font-heading" ) All Purpose Paper 80gsm - 500 sheets - 10 Reams
+                        p(class="mb-6 text-gray-500 leading-relaxed" ) Premium quality home and office paper for all printing and copying machines. It is a flexible paper capable of switching from one machine to another with great print results.
+
+                        div(class="mb-6")
+                            button(class="inline-flex items-center justify-center h-8 w-8 mr-2 bg-gray-400 rounded-full")
+                            button(class="inline-flex items-center justify-center h-8 w-8 mr-2 bg-gray-300 rounded-full")
+                            button(class="inline-flex items-center justify-center h-8 w-8 mr-2 bg-gray-200 rounded-full")
+
+                        div(class="flex mb-6")
+                            span(class="text-2xl" ) $10
+                            div(class="flex flex-wrap ml-4")
+                                div(class="w-1/2")
+                                    input(class="appearance-none block w-full py-2 px-4 leading-snug text-gray-700 bg-gray-200 focus:bg-white border border-gray-200 focus:border-gray-500 rounded md:rounded-r-none focus:outline-none" type="number" value="1")
+                                div(class="w-1/2")
+                                    button(class="inline-block w-full py-3 px-4 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded md:rounded-l-none" ) Buy
+
+                        div(class="pt-4 border-t") 
+                            a(href="#" class="text-blue-700 hover:underline" ) Add to favorites
+
+            hr 
+
+            section(class="py-12 px-4")
+                div(class="flex flex-wrap -mx-8")
+                    div(class="lg:w-1/2 px-8 mt-6 lg:mt-0 order-2 lg:order-none")
+                        h2(class="text-4xl mb-2 font-heading" ) All Purpose Paper 80gsm - 500 sheets - 10 Reams
+                        p(class="mb-6" ) $9,99 (Ex. Tax)
+
+                        div(class="flex mb-6")
+                            ul(class="flex list-reset")
+                                li 
+                                    a(class="block py-2 px-3 mr-2 bg-gray-200 rounded" href="#" ) Product Details
+                                li 
+                                    a(class="block py-2 px-3 mr-2 hover:bg-gray-200 rounded" href="#" ) Reviews
+                                li 
+                                    a(class="block py-2 px-3 mr-2 hover:bg-gray-200 rounded" href="#" ) FAQ
+
+                        p(class="mb-8 text-gray-500 leading-relaxed" ) Premium quality home and office paper for all printing and copying machines. It is a flexible paper capable of switching from one machine to another with great print results.
+
+                        table(class="w-full mb-6")
+                            tbody
+                                tr(class="border-t")
+                                    td(class="py-3" ) Sheets of paper per ream
+                                    td(class="text-right" ) 500
+                                tr(class="border-t")
+                                    td(class="py-3" ) Reams per box
+                                    td(class="text-right" ) 5
+                                tr(class="border-t")
+                                    td(class="py-3" ) Basis weight
+                                    td(class="text-right" ) 80mg
+
+                        button(class="inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded" ) Buy Now!
+
+                    div(class="lg:w-1/2 px-8")
+                        img(src="placeholders/pictures/paper.jpg" alt="" class="mb-4 rounded shadow-md" )
+                        div(class="flex flex-wrap -mx-2")
+                            div(class="w-1/3 px-2")
+                                img(src="placeholders/pictures/paper.jpg" alt="" class="rounded shadow-md" )
+                            div(class="w-1/3 px-2")
+                                img(src="placeholders/pictures/paper.jpg" alt="" class="rounded shadow-md" )
+                            div(class="w-1/3 px-2")
+                                img(src="placeholders/pictures/paper.jpg" alt="" class="rounded shadow-md" )
+
+            hr
+
+            include components/footer.pug

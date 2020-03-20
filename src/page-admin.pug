@@ -1,0 +1,110 @@
+doctype html
+html(lang="en")
+    head
+        title Tailwind CSS - Page Admin | AppSeed
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/tailwind/tailwind-theme.css")
+        link(rel="icon" href="favicon.ico")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicon.png")
+        script(src="js/main.js")
+    body.bg-body.text-body.font-body
+        .container.mx-auto.px-4
+
+            section(class="py-12 px-4 text-center")
+                div(class="w-full max-w-2xl mx-auto")
+                    h1(class="text-5xl leading-tight font-heading" ) 
+                        a(href="https://tailwindcss.com/" ) Tailwind CSS
+
+                    h3(class="mt-6 mb-8 text-gray-500 leading-relaxed" ) Page Admin - 
+                        a(href="https://github.com/app-generator/tailwind-css-components") Source Code
+
+            hr 
+
+            section(class="py-8 px-4")
+                div(class="flex flex-wrap -mx-4")
+                    div(class="w-full lg:w-1/4 px-4 mb-4 lg:mb-0")
+                        div(class="h-full border rounded shadow")
+                            div(class="flex items-center justify-between py-3 px-4 border-b")
+                                h3(class="text-lg font-heading" ) Income
+                                span(class="py-1 px-3 text-sm text-white font-semibold bg-green-500 rounded-full" ) Monthly
+                            
+                            div(class="flex flex-col p-4")
+                                h3(class="text-3xl mb-3 font-heading font-semibold" ) 108,200
+                                span Total income
+                                span(class="text-green-500" ) 82%
+                    
+                    div(class="w-full lg:w-1/4 px-4 mb-4 lg:mb-0")
+                        div(class="h-full border rounded shadow")
+                            div(class="flex items-center justify-between px-4 py-3 border-b")
+                                h3(class="text-lg font-heading" ) Orders
+                                span(class="py-1 px-3 text-sm text-white font-semibold bg-green-500 rounded-full" ) Monthly
+                            
+                            div(class="flex flex-col p-4")
+                                h3(class="text-3xl mb-3 font-heading font-semibold" ) 128,430
+                                span New orders
+                                span(class="text-green-500" ) 32%
+                    
+                    div(class="w-full lg:w-1/4 px-4 mb-4 lg:mb-0")
+                        div(class="h-full border rounded shadow")
+                            div(class="flex items-center justify-between px-4 py-3 border-b")
+                                h3(class="text-lg font-heading" ) Visits
+                                span(class="py-1 px-3 text-sm text-white font-semibold bg-green-500 rounded-full" ) Monthly
+                            
+                            div(class="flex flex-col p-4")
+                                h3(class="text-3xl mb-3 font-heading font-semibold" ) 81,248
+                                span New visits
+                                span(class="text-green-500" ) 24%
+                    
+                    div(class="w-full lg:w-1/4 px-4 mb-4 lg:mb-0")
+                        div(class="h-full border rounded shadow")
+                            div(class="flex items-center justify-between px-4 py-3 border-b")
+                                h3(class="text-lg font-heading" ) Conversions
+                                span(class="py-1 px-3 text-sm text-white font-semibold bg-red-500 rounded-full" ) Today
+                            
+                            div(class="flex flex-col p-4")
+                                h3(class="text-3xl mb-3 font-heading font-semibold" ) 7%
+                                span Purchased more than once
+                                span(class="text-red-500" ) 82%
+
+            hr 
+
+            section(class="py-8 px-4")
+                div(class="flex flex-wrap -mx-4")
+                    div(class="w-full lg:w-1/4 px-4 mb-6 lg:mb-0")
+                        div(class="h-full")
+                            div(class="flex justify-between items-end mb-2")
+                                h3(class="text-lg font-heading font-semibold" ) Projects
+                                span(class="text-5xl leading-none text-blue-700" ) 2
+                            div(class="w-full h-4 bg-gray-300 rounded")
+                                div(class="h-full bg-blue-500" style="width: 62%;") 
+                    
+                    div(class="w-full lg:w-1/4 px-4 mb-6 lg:mb-0")
+                        div(class="h-full")
+                            div(class="flex justify-between items-end mb-2")
+                                h3(class="text-lg font-heading font-semibold" ) Clients
+                                span(class="text-5xl leading-none text-red-500" ) 117
+                            div(class="w-full h-4 bg-gray-300 rounded")
+                                div(class="h-full bg-red-500" style="width: 62%;") 
+
+                    div(class="w-full lg:w-1/4 px-4 mb-6 lg:mb-0")
+                        div(class="h-full")
+                            div(class="flex justify-between items-end mb-2")
+                                h3(class="text-lg font-heading font-semibold" ) Invoices
+                                span(class="text-5xl leading-none text-purple-500" ) 12
+                            div(class="w-full h-4 bg-gray-300 rounded")
+                                div(class="h-full bg-purple-500" style="width: 62%;")
+
+                    div(class="w-full lg:w-1/4 px-4 mb-6 lg:mb-0")
+                        div(class="h-full")
+                            div(class="flex justify-between items-end mb-2")
+                                h3(class="text-lg font-heading font-semibold" ) Appointments
+                                span(class="text-5xl leading-none text-green-500" ) 14
+                            div(class="w-full h-4 bg-gray-300 rounded") 
+                                div(class="h-full bg-green-500" style="width: 62%;")
+
+            hr
+
+            include components/footer.pug                                

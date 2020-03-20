@@ -1,0 +1,81 @@
+doctype html
+html(lang="en")
+    head
+        title Tailwind CSS - Contact Components | AppSeed
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/tailwind/tailwind-theme.css")
+        link(rel="icon" href="favicon.ico")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicon.png")
+        script(src="js/main.js")
+    body.bg-body.text-body.font-body
+        .container.mx-auto.px-4
+
+            section(class="py-12 px-4 text-center")
+                div(class="w-full max-w-2xl mx-auto")
+                    h1(class="text-5xl leading-tight font-heading" ) 
+                        a(href="https://tailwindcss.com/" ) Tailwind CSS
+
+                    h3(class="mt-6 mb-8 text-gray-500 leading-relaxed" ) Contact Components - 
+                        a(href="https://github.com/app-generator/tailwind-css-components") Source Code
+
+            hr 
+
+            section(class="py-12 px-4")
+                h2(class="text-3xl mb-8 text-center font-heading" ) Contact the Scranton team
+
+                div(class="w-full max-w-2xl mx-auto mb-12")
+                    form
+                        div(class="flex mb-4 -mx-2")
+                            div(class="w-1/2 px-2")
+                                input(class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-200 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none" type="email" placeholder="Email")
+                            div(class="w-1/2 px-2")
+                                select(class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-200 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none")
+                                    option -- Select product --
+                                    option Product 1
+                                    option Product 2
+                                    option Product 3
+                        div(class="mb-4")
+                            textarea(class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-200 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none" type="password" placeholder="Write something..." rows="5")
+                        div
+                            button(class="inline-block w-full py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" ) Submit
+
+                div(class="flex flex-col lg:flex-row lg:justify-center -mx-4")
+                    div(class="px-4")
+                        img(src="placeholders/icons/home.svg" class="inline-block w-8 h-8 pr-2" alt="" )
+                        span 1725 Slough Avenue, Scranton
+                    div(class="px-4")
+                        img(src="placeholders/icons/mobile.svg" class="inline-block w-8 h-8 pr-2" alt="" )
+                        span 555-111-555
+                    div(class="px-4") 
+                        img(src="placeholders/icons/message.svg" class="inline-block w-8 h-8 pr-2" alt="" )
+                        span scranton@dundermifflin.com
+
+            hr 
+
+            section(class="py-12 px-4")
+                h2(class="text-3xl mb-8 text-center font-heading" ) Contact the Scranton team
+
+                div(class="w-full max-w-2xl mx-auto mb-8")
+                    form
+                        div(class="flex mb-4 -mx-2")
+                            div(class="w-1/2 px-2")
+                                input(class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-200 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none" type="email" placeholder="Name")
+                            div(class="w-1/2 px-2")
+                                input(class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-200 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none" type="email" placeholder="Email")
+                        div(class="mb-4")
+                            textarea(class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-200 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none" type="password" placeholder="Write something..." rows="5")
+                        div
+                            button(class="inline-block w-full py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" ) Submit
+
+                div(class="text-center")
+                    p(class="mb-2" ) Or just email us on
+                    a(href="#" class="text-blue-700 hover:underline" ) scranton@dundermifflin.com
+
+
+            hr
+
+            include components/footer.pug
+                    

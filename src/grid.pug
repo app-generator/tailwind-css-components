@@ -1,0 +1,58 @@
+doctype html
+html(lang="en")
+    head
+        title Tailwind CSS - Grid Components | AppSeed
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/tailwind/tailwind-theme.css")
+        link(rel="icon" href="favicon.ico")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicon.png")
+        script(src="js/main.js")
+    body.bg-body.text-body.font-body
+        .container.mx-auto.px-4
+
+            section(class="py-12 px-4 text-center")
+                div(class="w-full max-w-2xl mx-auto")
+                    h1(class="text-5xl leading-tight font-heading" ) 
+                        a(href="https://tailwindcss.com/" ) Tailwind CSS
+
+                    h3(class="mt-6 mb-8 text-gray-500 leading-relaxed" ) Grid Components - 
+                        a(href="https://github.com/app-generator/tailwind-css-components") Source Code
+
+            hr 
+
+            section(class="p-4")
+                div(class="flex flex-wrap -mx-10")
+                    div(class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0")
+                        h3(class="text-2xl font-heading" ) Great quality
+                        p(class="my-4 text-gray-500 leading-relaxed" ) Our paper is literally tempting you to print something. Even if you already have a paper supplier, we can change that! Our products will never let you down.
+                        a(href="#" class="text-blue-700 hover:underline" ) Learn more &raquo;
+                    
+                    div(class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0")
+                        h3(class="text-2xl font-heading" ) Fast delivery
+                        p(class="my-4 text-gray-500 leading-relaxed" ) Business in need? We can prepare next-day delivery if necessary. The supplies will be delivered to your company every first Monday of the month. Small business is a good business.
+                        a(href="#" class="text-blue-700 hover:underline" ) Learn more &raquo;
+
+            hr 
+
+            section(class="p-4")
+                div(class="flex flex-wrap -mx-8")
+                    div(class="md:w-1/3 py-4 px-8 mb-4 md:mb-0")
+                        h3(class="text-2xl font-heading" ) Great quality
+                        p(class="my-4 text-gray-500 leading-relaxed" ) Our paper is literally tempting you to print something. Even if you already have a paper supplier, we can change that!
+                        a(href="#" class="text-blue-700 hover:underline" ) Learn more &raquo;
+                    
+                    div(class="md:w-1/3 py-4 px-8 mb-4 md:mb-0")
+                        h3(class="text-2xl font-heading" ) Fast delivery
+                        p(class="my-4 text-gray-500 leading-relaxed" ) Business in need? We can prepare next-day delivery if necessary. The supplies will be delivered to your company every first Monday.
+                        a(href="#" class="text-blue-700 hover:underline" ) Learn more &raquo;
+                    
+                    div(class="md:w-1/3 py-4 px-8 mb-4 md:mb-0")
+                        h3(class="text-2xl font-heading" ) Attractive discounts
+                        p(class="my-4 text-gray-500 leading-relaxed" ) Every customer gets 10% discount on the other paper supplies. You never know, when we will launch something interesting.
+                        a(href="#" class="text-blue-700 hover:underline" ) Learn more &raquo;
+            hr
+
+            include components/footer.pug
