@@ -35,5 +35,66 @@ yarn build
 
 <br />
 
+> Need More? Check out this curated list with Open-Source Tailwind Themes
+
+<br />
+
+## [Soft UI Dashboard Tailwind](https://www.creative-tim.com/product/soft-ui-dashboard-tailwind?AFFILIATE=128200)
+
+Soft UI Dashboard Tailwind is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining.
+
+- 👉 [Soft UI Dashboard Tailwind](https://www.creative-tim.com/product/soft-ui-dashboard-tailwind?AFFILIATE=128200) - `product page`
+- 👉 [Soft UI Dashboard Tailwind](https://demos.creative-tim.com/soft-ui-dashboard-tailwind/pages/dashboard.html?AFFILIATE=128200) - `LIVE demo`
+
+![Soft UI Dashboard Tailwind - Open-Source Tailwind Theme.](https://user-images.githubusercontent.com/51070104/198189905-f93aa4c9-f2ff-4260-9d62-0103b6012549.png)
+
+<br />
+
+## [Soft UI Flowbite](https://www.creative-tim.com/product/soft-ui-flowbite?AFFILIATE=128200)
+
+Build your website faster with an Innovative Admin Template based on TailwindCSS, Flowbite, and HTML. Soft UI Flowbite features a huge number of components built to fit together and look amazing.
+
+- 👉 [Soft UI Flowbite](https://www.creative-tim.com/product/soft-ui-flowbite?AFFILIATE=128200) - `product page`
+- 👉 [Soft UI Flowbite](https://demos.creative-tim.com/soft-ui-flowbite/?AFFILIATE=128200) - `LIVE demo`
+
+This Free Dashboard is coming with prebuilt design blocks, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+
+![Soft UI Flowbite - Open-Source Tailwind Theme.](https://user-images.githubusercontent.com/51070104/198190144-f342b27f-976b-447e-bfac-3ecaf1323af7.png)
+
+<br />
+
+## [Argon Dashboard Tailwind](https://www.creative-tim.com/product/argon-dashboard-tailwind?AFFILIATE=128200)
+
+Argon is a completly new product built on our newest re-built from scratch framework structure that is meant to make our products more intuitive, more adaptive and, needless to say, so much easier to customize. Let Argon amaze you with its cool features and build tools and get your project to a whole new level.
+
+- 👉 [Argon Dashboard Tailwind](https://www.creative-tim.com/product/argon-dashboard-tailwind?AFFILIATE=128200) - `product page`
+- 👉 [Argon Dashboard Tailwind](https://demos.creative-tim.com/argon-dashboard-tailwind/pages/dashboard?AFFILIATE=128200) - `LIVE demo`
+
+![Argon Dashboard Tailwind - Open-Source Tailwind Template.](https://user-images.githubusercontent.com/51070104/198190387-c58874ca-d9a6-492f-816c-517dfc199650.png)
+
+<br />
+
+## [Notus Svelte](https://www.creative-tim.com/product/notus-svelte?AFFILIATE=128200)
+
+Argon is a completly new product built on our newest re-built from scratch framework structure that is meant to make our products more intuitive, more adaptive and, needless to say, so much easier to customize. Let Argon amaze you with its cool features and build tools and get your project to a whole new level.
+
+- 👉 [Notus Svelte](https://www.creative-tim.com/product/notus-svelte?AFFILIATE=128200) - `product page`
+- 👉 [Notus Svelte](https://demos.creative-tim.com/notus-svelte/?AFFILIATE=128200) - `LIVE demo`
+
+![Notus Svelte - Open-Source Tailwind Template.](https://user-images.githubusercontent.com/51070104/198190634-980002c6-ba1b-4fb3-9e81-eadcdd07df29.png)
+
+<br />
+
+## [Material Tailwind Kit React](https://www.creative-tim.com/product/material-tailwind-kit-react?AFFILIATE=128200)
+
+Material Tailwind Kit React features over 120 individual components, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. All components can also take variations in color, which you can easily modify using react.js props.
+
+- 👉 [Material Tailwind Kit React](https://www.creative-tim.com/product/material-tailwind-kit-react?AFFILIATE=128200) - `product page`
+- 👉 [Material Tailwind Kit React](https://demos.creative-tim.com/material-tailwind-kit-react/#/?AFFILIATE=128200) - `LIVE demo`
+
+![Material Tailwind Kit React - Open-Source Tailwind UI Kit.](https://user-images.githubusercontent.com/51070104/198190878-3e2b4310-9d8f-40d2-824f-bb7494b52c30.png)
+
+<br />
+
 ---
 **[Tailwind CSS Components](https://tailwind-css-components.appseed.us/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
